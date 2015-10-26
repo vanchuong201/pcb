@@ -1,0 +1,110 @@
+body{
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    color: #151515;
+    font-size: 14px;
+}
+/*HEADER BEGIN*/
+header{
+    width: 100%;
+    height: 100px;
+    background-image: url("images/bg-header.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+header #logo{
+    display: inline-block;
+    margin: 30px 0 0 50px;
+}
+header #social {
+    display: inline-block;
+    float: right;
+    height: 28px;
+    margin-right: 20px;
+}
+header #social a{
+    display: inline-block;
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+header #social a:hover{
+    opacity: 1;
+}
+header #social a.facebook{
+    background: url("images/facebook.png") no-repeat;
+}
+header #social a.googleplus{
+    background: url("images/googleplus.png") no-repeat;
+}
+header #social a.youtube{
+    background: url("images/youtube.png") no-repeat;
+}
+/*HEADER END*/
+
+
+
+/*NAV BEGIN*/
+nav {
+    height: 50px;
+    background: #d6d6d6;
+    background: -moz-linear-gradient(left,#d6d6d6 0%,#ffffff 40%,#ffffff 60%,#d6d6d6 100%);
+    background: -webkit-gradient(linear,left top,right top,color-stop(0%,#d6d6d6),color-stop(40%,#ffffff),color-stop(60%,#ffffff),color-stop(100%,#d6d6d6));
+    background: -webkit-linear-gradient(left,#d6d6d6 0%,#ffffff 40%,#ffffff 60%,#d6d6d6 100%);
+    background: -o-linear-gradient(left,#d6d6d6 0%,#ffffff 40%,#ffffff 60%,#d6d6d6 100%);
+    background: -ms-linear-gradient(left,#d6d6d6 0%,#ffffff 40%,#ffffff 60%,#d6d6d6 100%);
+    background: linear-gradient(to right,#d6d6d6 0%,#ffffff 40%,#ffffff 60%,#d6d6d6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d6d6d6',endColorstr='#d6d6d6',GradientType=1);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.05);
+}
+nav #menu-nav{
+    width: 1010px;
+    height: 100%;
+    margin: auto;
+}
+nav #menu-nav ul{
+    list-style-type: none;
+    line-height: 50px;
+    padding: 0;
+}
+nav #menu-nav ul li{
+    display: inline-block;
+}
+nav #menu-nav ul > li > a{
+    display: block;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+nav #menu-nav ul > li:first-child > a{
+    padding-left: 0;
+}
+/*NAV HEADER*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
