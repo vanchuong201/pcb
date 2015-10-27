@@ -17,9 +17,12 @@ section#list-product-block {
     margin-top: 10px;
 }
 section#list-product-block #list-product .product{
-    width: 210px;
+    width: 230px;
     display: block;
     float: left;
+}
+section#list-product-block #list-product .product img{
+    border-radius: 10px;
 }
 section#list-product-block #list-product .product:hover img{
     webkit-transform: scale(1.05);
@@ -31,8 +34,8 @@ section#list-product-block #list-product .product:hover img{
     transition: 400ms;
 }
 section#list-product-block #list-product .product:not(:first-child){
-    padding-left: 37.5px;
-    background: url('images/pas-tall.png') 0 -10px no-repeat;
+    padding-left: 32.5px;
+    background: url('images/pas-tall.png') -2px -10px no-repeat;
 }
 section#list-product-block #list-product .product>a:first-child{
     display: block;
@@ -44,6 +47,67 @@ section#list-product-block #list-product .product>a:last-child{
     font-weight: 600;
 }
 /*PRODUCT LIST END*/
+
+
+/*ADD BACKGROUND*/
+#background{
+    height: 40px;
+    margin-top: 20px;
+    background: url('images/main_body_devider.png') no-repeat 50% 100%;
+}
+/*ADD BACKGROUNDEND*/
+
+
+
+/*CONTENT BEGIN*/
+#content-block{}
+#content-block .content{
+    width: 30%;
+    padding-right: 20px;
+    float: left;
+    height: 200px;
+    color: #666666;
+}
+#content-block .content>p.title{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    color: #E35772;
+    font-weight: 700;
+}
+#content-about-me>div img{
+    width: 30%;
+    float: left;
+    margin-right: 15px;
+}
+#content-about-me >div span{
+    line-height: 20px;
+}
+#content-about-me >div span:before{
+    content: "\00a0  ";
+}
+
+#content-news .list-item-news>a{
+    display: block;
+    line-height: 25px;
+    text-decoration: none;
+    color: #666666;
+}
+#content-news .list-item-news>a:hover{
+    color: #044A75;
+}
+#content-news .list-item-news>a:before{
+    font-family: "FontAwesome";
+    content: "\f0da";
+    padding-right: 10px;
+}
+
+#content-order-pcb{
+    padding-right: 0 !important;
+    margin-top: 20px;
+}
+
+/*CONTENT END*/
 
 
 
