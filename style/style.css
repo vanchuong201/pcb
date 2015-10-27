@@ -1,3 +1,4 @@
+@font-face { font-family: FontAwesome; src: url('fonts/FontAwesome.otf'); }
 body{
     font-family: Open Sans, sans-serif;
     font-weight: 300;
@@ -72,15 +73,27 @@ nav #menu-nav ul{
 }
 nav #menu-nav ul li{
     display: inline-block;
+    cursor: pointer;
 }
 nav #menu-nav ul > li > a{
     display: block;
     padding: 0 15px;
     font-size: 16px;
     font-weight: 500;
+    letter-spacing: 1px;
 }
-nav #menu-nav ul > li:first-child > a{
+/*nav #menu-nav ul > li > a.sub-menu:after{
+    font-family: "FontAwesome";
+    content: " \f107";
+}*/
+/*nav #menu-nav ul > li:first-child > a{
     padding-left: 0;
+}*/
+nav #menu-nav ul > li:hover{
+    background: #7FC1EB;
+}
+nav #menu-nav ul > li:hover a{
+    color: #ffffff;
 }
 /*NAV HEADER*/
 
