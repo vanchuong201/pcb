@@ -1,0 +1,76 @@
+/*SLIDER BEGIN*/
+#slider-block{
+    height: 300px;
+    position: relative;
+    margin-top: 1px;
+}
+#slider-block #slider{
+    height: 100%;
+}
+#slider-block #slider img{
+    height: 100%;
+}
+/*SLIDER END*/
+
+/*PRODUCT LIST BEGIN*/
+section#list-product-block {
+    margin-top: 10px;
+}
+section#list-product-block #list-product .product{
+    width: 210px;
+    display: block;
+    float: left;
+}
+section#list-product-block #list-product .product:hover img{
+    webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -o-transition: 400ms;
+    transition: 400ms;
+}
+section#list-product-block #list-product .product:not(:first-child){
+    padding-left: 37.5px;
+    background: url('images/pas-tall.png') 0 -10px no-repeat;
+}
+section#list-product-block #list-product .product>a:first-child{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+section#list-product-block #list-product .product>a:last-child{
+    color: #0B62A5;
+    font-weight: 600;
+}
+/*PRODUCT LIST END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>MachinPCB</title>
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="__css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="__css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="__css/home.css">
+    <link rel="stylesheet" type="text/css" href="__css/nivo-slider.css">
+
+    <script type="text/javascript" src="__js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="__js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+    </script>
 </head>
 <body>
 <!--HEADER BEGIN-->
 <header>
     <div id="logo">
-        <img src="style/images/logo.png">
+        <img src="__css/images/logo.png">
     </div>
     <div id="social">
         <a class="facebook"></a>
@@ -39,10 +51,45 @@
 <!--MENU END-->
 
 <!--SLIDER BEGIN-->
-<section>
-    
+<section id="slider-block" class="slider-wrapper theme-default">
+    <div id="slider" class="nivoSlider">
+        <img src="__css/images/sl1.jpg" data-thumb="css/images/sl1.jpg" alt="" />
+        <a href="#"><img src="__css/images/sl2.png" data-thumb="css/images/sl2.png" alt="" title="This is an example of a caption" /></a>
+        <img src="__css/images/sl3.png" data-thumb="css/images/sl3.png" alt="" data-transition="slideInLeft" />
+        <img src="__css/images/sl4.jpg" data-thumb="css/images/sl4.jpg" alt="" title="#htmlcaption" />
+    </div>
+    <div id="htmlcaption" class="nivo-html-caption">
+        <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+    </div>
 </section>
 <!--SLIDER END-->
+
+<section id="list-product-block" class="page-content">
+    <div id="list-product">
+        <div class="product">
+            <a href="#"><img src="__css/images/product1.jpg"></a>
+            <a>Thương hiệu mới nổi Tuấn T, thương hiệu mới </a>
+        </div>
+        <div class="product">
+            <a href="#"><img src="__css/images/product1.jpg"></a>
+            <a>Thương hiệu mới nổi Tuấn T. </a>
+        </div>
+        <div class="product">
+            <a href="#"><img src="__css/images/product1.jpg"></a>
+            <a>Thương hiệu mới nổi Tuấn T, thương hiệu mới nổi </a>
+        </div>
+        <div class="product">
+            <a href="#"><img src="__css/images/product1.jpg"></a>
+            <a>Thương hiệu mới nổi Tuấn T.</a>
+        </div>
+        <div class="product">
+            <a href="#"><img src="__css/images/product1.jpg"></a>
+            <a>Thương hiệu mới nổi Tuấn T.</a>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+</section>
 
 
 </body>
