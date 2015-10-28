@@ -12,6 +12,7 @@
 
 .clear, .clearfix, .clear-fix{clear: both;}
 img{width: 100%}
+
 body{
     max-width: 1280px;
     margin: auto;
@@ -20,9 +21,11 @@ body{
     color: #151515;
     font-size: 14px;
     height: 1200px;
+
+    background: url('images/main_back_left.png') 0 70% no-repeat, url('images/main_back_right.png') 100% 55% no-repeat;
 }
 .page-content{
-    width: 100%;
+    width: 1110px;
     margin: auto;
 }
 /*HEADER BEGIN*/
@@ -117,6 +120,46 @@ nav #menu-nav ul > li:hover a{
     color: #ffffff;
 }
 /*NAV END*/
+
+/*PARTNER BEGIN*/
+
+#partner-block a.partner-link {
+    display: block;
+    padding: 0 5px;
+    outline: 0;
+}
+#partner-block img.partner-img{
+    border: 1px solid #e9e5e5;
+}
+#partner-block p.title{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    color: #E35772;
+    font-weight: 700;
+}
+#partner-block #list-partner{
+}
+.slick-prev:before, .slick-next:before{
+    color:#044A75 !important
+}
+/*PARTNER END*/
+
+
+
+/*FOOTER BEGIN*/
+footer{
+    height: 420px;
+    padding-top: 115px;
+    background-image: url("images/bottom_back.jpg");
+    background-repeat: no-repeat;
+}
+#footer .footer-product{
+    width: 200px;
+    border: 1px solid;
+    min-height: 100px;
+}
+/*FOOTER END*/
 
 
 

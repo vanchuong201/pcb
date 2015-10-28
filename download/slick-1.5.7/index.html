@@ -1,0 +1,42 @@
+<html>
+  <head>
+  <title>My Now Amazing Webpage</title>
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+  </head>
+  <body>
+
+  <div class="your-class" style="width:500px; border:1px solid; height:50px; margin:auto">
+    <div>your content</div>
+    <div>your content</div>
+    <div>your content</div>
+    <div>your content</div>
+    <div>your content</div>
+    <div>your content</div>
+    <div>your content</div>
+    <div>your content</div>
+    <div>your content</div>
+    <div>your content</div>
+  </div>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000
+      });
+    });
+  </script>
+<style type="text/css">
+	.slick-prev:before, .slick-next:before{
+		color:red;
+	}
+</style>
+  </body>
+</html>

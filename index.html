@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>MachinPCB</title>
-    <link rel="stylesheet" type="text/css" href="__css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="__css/reset.css">
     <link rel="stylesheet" type="text/css" href="__css/style.css">
 
     <link rel="stylesheet" type="text/css" href="__css/home.css">
     <link rel="stylesheet" type="text/css" href="__css/nivo-slider.css">
+    <link rel="stylesheet" type="text/css" href="__css/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="__css/slick/slick-theme.css"/>
 
-    <script type="text/javascript" src="__js/jquery-1.9.0.min.js"></script>
+
+    <script type="text/javascript" src="__js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="__js/jquery.nivo.slider.js"></script>
+
+    <script type="text/javascript" src="__js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="__css/slick/slick.min.js"></script>
+
     <script type="text/javascript">
         $(window).load(function() {
             $('#slider').nivoSlider();
@@ -64,6 +71,7 @@
 </section>
 <!--SLIDER END-->
 
+<!--PRODUCT LIST BEGIN-->
 <section id="list-product-block" class="page-content">
     <div id="list-product">
         <div class="product">
@@ -90,10 +98,12 @@
         <div class="clearfix"></div>
     </div>
 </section>
+<!--PRODUCT LIST END-->
 
 <section id="background"></section>
 
-<section id="content-block">
+<!--PRODUCT CONTENT BEGIN-->
+<section id="content-block" class="page-content">
     <div id="content-about-me" class="content">
         <p class="title">Về chúng tôi</p>
         <div>
@@ -120,8 +130,49 @@
 
     <div class="clearfix"></div>
 </section>
+<!--PRODUCT CONTENT END-->
 
 
+<!--PARTNER BEGIN-->
+<section id="partner-block" class="page-content">
+    <p class="title">Đối tác</p>
+    <div id="list-partner" class="list-partner">
+        <div><a class="partner-link" href="#"><img class="partner-img" src="__css/images/doitac1.jpg"></a></div>
+        <div><a class="partner-link" href="#"><img class="partner-img" src="__css/images/doitac2.jpg"></a></div>
+        <div><a class="partner-link" href="#"><img class="partner-img" src="__css/images/doitac3.jpg"></a></div>
+        <div><a class="partner-link" href="#"><img class="partner-img" src="__css/images/doitac4.jpg"></a></div>
+        <div><a class="partner-link" href="#"><img class="partner-img" src="__css/images/doitac5.jpg"></a></div>
+        <div><a class="partner-link" href="#"><img class="partner-img" src="__css/images/doitac6.jpg"></a></div>
+        <div><a class="partner-link" href="#"><img class="partner-img" src="__css/images/doitac7.jpg"></a></div>
+        <div><a class="partner-link" href="#"><img class="partner-img" src="__css/images/doitac1.jpg"></a></div>
+        <div><a class="partner-link" href="#"><img class="partner-img" src="__css/images/doitac1.jpg"></a></div>
+        <div><a class="partner-link" href="#"><img class="partner-img" src="__css/images/doitac1.jpg"></a></div>
+    </div>
+</section>
+<!--PARTNER END-->
+
+
+<!--FOOTER BEGIN-->
+<footer>
+    <div id="footer" class="page-content">
+        <div class="footer-product">
+
+        </div>
+    </div>
+</footer>
+<!--FOOTER END-->
+
+<script>
+    $(document).ready(function(){
+        $('#list-partner').slick({
+            /*dots: true,*/
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000
+        });
+    });
+</script>
 </body>
 </html>
 
