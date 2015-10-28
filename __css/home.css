@@ -35,8 +35,8 @@ section#list-product-block #list-product .product:hover img{
     transition: 400ms;
 }
 section#list-product-block #list-product .product:not(:first-child){
-    padding-left: 15px;
-    background: url('images/pas-tall.png') -15px 3px no-repeat;
+    margin-left: 15px;
+    /*background: url('images/pas-tall.png') -15px 3px no-repeat;*/
 }
 section#list-product-block #list-product .product>a:first-child{
     display: block;
@@ -64,8 +64,8 @@ section#list-product-block #list-product .product>a:last-child{
 /*CONTENT BEGIN*/
 #content-block{}
 #content-block .content{
-    width: 30%;
-    padding-right: 20px;
+    width: 350px;
+    margin-right: 30px;
     float: left;
     height: 200px;
     color: #666666;
@@ -86,7 +86,7 @@ section#list-product-block #list-product .product>a:last-child{
     line-height: 20px;
 }
 #content-about-me >div span:before{
-    content: "\00a0  ";
+    content: "\00a0 ";
 }
 
 #content-news .list-item-news>a{
@@ -96,7 +96,7 @@ section#list-product-block #list-product .product>a:last-child{
     color: #666666;
 }
 #content-news .list-item-news>a:hover{
-    color: #044A75;
+    color: #DC3737;
 }
 #content-news .list-item-news>a:before{
     font-family: "FontAwesome";
@@ -105,8 +105,7 @@ section#list-product-block #list-product .product>a:last-child{
 }
 
 #content-order-pcb{
-    padding-right: 0 !important;
-    margin-top: 40px;
+    margin-right: 0 !important;
 }
 /*CONTENT END*/
 
